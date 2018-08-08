@@ -36,28 +36,28 @@ var str = "ahceclwlxo";
 for (var i = 1; i <str.length; i+=2){
     console.log(str[i]);
 }
-The for loop has three expressions enclosed in the parentheses(brackets):
+// The for loop has three expressions enclosed in the parentheses(brackets):
 
-1. Initialization
+// 1. Initialization
 
-2. Condition
+// 2. Condition
 
-3. Final-expression
+// 3. Final-expression
 
-So, the given for loop is : 
+// So, the given for loop is : 
 
 var str = "ahceclwlxo";
  
 for(var i=1; i<str.length; i+=2) {
     console.log(str[i]);
 }
-Here, the initialization is i=1; which means that that i  starts from 1. The condition is i<str.length which means i<10 because the length of the string is 10 (not 9), and the final expression is i+=2 , this is a type of short-hand which simply means i=i+2 .
+// Here, the initialization is i=1; which means that that i  starts from 1. The condition is i<str.length which means i<10 because the length of the string is 10 (not 9), and the final expression is i+=2 , this is a type of short-hand which simply means i=i+2 .
 
-And finally we are logging str[i] which means the i  element in the string str . Example str[0] = 'a'  , str[3] = 'e' , str[5] = 'l' .
+// And finally we are logging str[i] which means the i  element in the string str . Example str[0] = 'a'  , str[3] = 'e' , str[5] = 'l' .
 
-Let us now solve a few iterations to understand the loop.
+// Let us now solve a few iterations to understand the loop.
 
-The loop has a total of 5 iterations because it starts with i=1, and increases by 2 every iteration until the condition does not satisfy.
+// The loop has a total of 5 iterations because it starts with i=1, and increases by 2 every iteration until the condition does not satisfy.
 
 FIRST:
 
@@ -71,9 +71,9 @@ i=3; i<10; i+=2
 console.log(str[3])
 will print 'e'
 
-and so on.... till i=11; i<10; i+=2 Here the condition does not satisfy and it breaks the loop. 
+// and so on.... till i=11; i<10; i+=2 Here the condition does not satisfy and it breaks the loop. 
 
-So finally the output will be "hello"
+// So finally the output will be "hello"
 
 //another example 
 
